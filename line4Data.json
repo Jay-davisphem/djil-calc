@@ -1,0 +1,4357 @@
+{
+  "period": "2024/06/01 ~ 06/31\t( IronOX  )",
+  "users": [
+    {
+      "number": "4",
+      "name": "Rossy",
+      "department": "Admin",
+      "totalMinutes": 8276,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "08:26",
+          "end": "14:39",
+          "min": 0,
+          "totalMin": 283,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:22",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 68,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "07:54",
+          "end": "17:07",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 13,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:53",
+          "end": "07:54",
+          "min": 0,
+          "totalMin": -89,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/14": {
+          "start": "08:46",
+          "end": "17:15",
+          "min": 0,
+          "totalMin": 329,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "09:40",
+          "end": "18:38",
+          "min": 0,
+          "totalMin": 448,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "08:16",
+          "end": "18:28",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 72,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "08:55",
+          "end": "17:53",
+          "min": 0,
+          "totalMin": 448,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "08:30",
+          "end": "17:22",
+          "min": 0,
+          "totalMin": 442,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "09:29",
+          "end": "17:54",
+          "min": 0,
+          "totalMin": 415,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/21": {
+          "start": "08:18",
+          "end": "17:32",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 14,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "08:36",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 444,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/23": {
+          "start": "07:46",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 44,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "08:10",
+          "end": "17:28",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 18,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "09:24",
+          "end": "18:00",
+          "min": 0,
+          "totalMin": 426,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/26": {
+          "start": "08:04",
+          "end": "17:52",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 48,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "08:12",
+          "end": "17:41",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 29,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "07:53",
+          "end": "17:25",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 32,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "08:04",
+          "end": "17:39",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 35,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "5",
+      "name": "Chineye",
+      "department": "Admin",
+      "totalMinutes": 11119,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "07:32",
+          "end": "14:38",
+          "min": 0,
+          "totalMin": 336,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:15",
+          "end": "17:26",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 71,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/4": {
+          "start": "07:23",
+          "end": "17:07",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 44,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:35",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 31,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/6": {
+          "start": "07:35",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 26,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "07:19",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 42,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/8": {
+          "start": "07:41",
+          "end": "15:07",
+          "min": 0,
+          "totalMin": 356,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "07:27",
+          "end": "17:26",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 59,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:29",
+          "end": "17:00",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 31,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/12": {
+          "start": "07:37",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 25,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:31",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 30,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/14": {
+          "start": "07:44",
+          "end": "17:23",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 39,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "08:02",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 28,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:35",
+          "end": "17:44",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 69,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "07:35",
+          "end": "17:13",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 38,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:18",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 48,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "07:17",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 73,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:18",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 48,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/22": {
+          "start": "08:06",
+          "end": "15:26",
+          "min": 0,
+          "totalMin": 350,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "07:21",
+          "end": "17:14",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 53,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "07:27",
+          "end": "17:09",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 42,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/26": {
+          "start": "07:32",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 32,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/27": {
+          "start": "07:31",
+          "end": "17:10",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 39,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "07:24",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 41,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "08:10",
+          "end": "15:37",
+          "min": 0,
+          "totalMin": 357,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "11",
+      "name": "Promise",
+      "department": "Admin",
+      "totalMinutes": 9291,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "07:44",
+          "end": "15:19",
+          "min": 0,
+          "totalMin": 365,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "08:30",
+          "end": "16:35",
+          "min": 0,
+          "totalMin": 395,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/3": {
+          "start": "07:26",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 64,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "07:23",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 67,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "07:10",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 80,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "07:39",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 51,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "06:39",
+          "end": "17:40",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 121,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "07:31",
+          "end": "17:26",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 55,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:33",
+          "end": "17:47",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 74,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "07:27",
+          "end": "18:09",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 102,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:37",
+          "end": "17:24",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 47,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "07:28",
+          "end": "17:36",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 68,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:29",
+          "end": "17:20",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 51,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/22": {
+          "start": "08:10",
+          "end": "18:23",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 73,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "08:30",
+          "end": "14:11",
+          "min": 0,
+          "totalMin": 251,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/26": {
+          "start": "08:02",
+          "end": "17:44",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 42,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "07:14",
+          "end": "18:07",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 113,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "07:26",
+          "end": "17:23",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 57,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "07:43",
+          "end": "17:37",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 54,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "12",
+      "name": "Morgan",
+      "department": "Admin",
+      "totalMinutes": 11201,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "08:13",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 17,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "08:07",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 23,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:27",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 3,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:49",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 41,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "08:34",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 332,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "07:58",
+          "end": "17:33",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 35,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "08:18",
+          "end": "15:17",
+          "min": 0,
+          "totalMin": 329,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "08:01",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 29,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:53",
+          "end": "17:23",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 30,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/12": {
+          "start": "08:14",
+          "end": "15:59",
+          "min": 0,
+          "totalMin": 375,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:54",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 36,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "07:58",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 8,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "08:25",
+          "end": "16:19",
+          "min": 0,
+          "totalMin": 384,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:25",
+          "end": "17:12",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 47,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/18": {
+          "start": "07:32",
+          "end": "17:28",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 56,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:57",
+          "end": "16:22",
+          "min": 0,
+          "totalMin": 415,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "08:19",
+          "end": "17:37",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 18,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "08:06",
+          "end": "18:24",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 78,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "08:35",
+          "end": "16:50",
+          "min": 0,
+          "totalMin": 315,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/23": {
+          "start": "08:19",
+          "end": "16:01",
+          "min": 0,
+          "totalMin": 372,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/24": {
+          "start": "08:16",
+          "end": "17:03",
+          "min": 0,
+          "totalMin": 437,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "08:09",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 21,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "08:32",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 332,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "08:57",
+          "end": "16:35",
+          "min": 0,
+          "totalMin": 278,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "08:48",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 432,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "13",
+      "name": "Vishi",
+      "department": "Admin",
+      "totalMinutes": 0,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "15",
+      "name": "Edidiong",
+      "department": "Admin",
+      "totalMinutes": 9330,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "08:22",
+          "end": "14:41",
+          "min": 0,
+          "totalMin": 289,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:57",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 8,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:14",
+          "end": "17:07",
+          "min": 0,
+          "totalMin": 443,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:43",
+          "end": "17:08",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 25,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/6": {
+          "start": "08:10",
+          "end": "17:11",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 1,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "08:15",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 440,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "07:27",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 37,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:37",
+          "end": "17:16",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 39,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/12": {
+          "start": "08:00",
+          "end": "17:03",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 3,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "08:21",
+          "end": "17:00",
+          "min": 0,
+          "totalMin": 429,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/14": {
+          "start": "07:45",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 16,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:46",
+          "end": "17:29",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 43,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/18": {
+          "start": "08:00",
+          "end": "17:13",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 13,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:55",
+          "end": "17:15",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 20,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "08:04",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 26,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:50",
+          "end": "17:12",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 22,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "07:42",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 22,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "07:45",
+          "end": "17:08",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 23,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/26": {
+          "start": "07:51",
+          "end": "17:06",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 15,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/27": {
+          "start": "07:58",
+          "end": "17:10",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 12,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "08:20",
+          "end": "17:09",
+          "min": 0,
+          "totalMin": 439,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "2",
+      "name": "Sandra",
+      "department": "Accounting",
+      "totalMinutes": 9036,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:53",
+          "end": "17:03",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 10,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:25",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 427,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:47",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 14,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/6": {
+          "start": "07:44",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 18,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "07:41",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 24,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "07:53",
+          "end": "17:03",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 10,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:42",
+          "end": "16:59",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 17,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/12": {
+          "start": "07:39",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 22,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:40",
+          "end": "17:11",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 31,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/14": {
+          "start": "08:10",
+          "end": "17:00",
+          "min": 0,
+          "totalMin": 440,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:48",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 14,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/18": {
+          "start": "07:54",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 7,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:50",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 15,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "08:01",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 3,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/21": {
+          "start": "08:00",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 1,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "07:42",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 19,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "07:54",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 8,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/26": {
+          "start": "07:45",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 45,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "08:14",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 441,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "08:16",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 438,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "3",
+      "name": "Peace",
+      "department": "Accounting",
+      "totalMinutes": 11443,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "08:01",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 29,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:15",
+          "end": "17:43",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 88,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "07:54",
+          "end": "17:13",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 19,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:44",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 46,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "07:37",
+          "end": "17:10",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 33,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "07:34",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 56,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "08:06",
+          "end": "13:15",
+          "min": 0,
+          "totalMin": 219,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "07:40",
+          "end": "17:48",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 68,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:32",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 58,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "07:38",
+          "end": "17:11",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 33,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:25",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 65,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "07:52",
+          "end": "18:25",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 93,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "07:09",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 81,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "08:49",
+          "end": "17:23",
+          "min": 0,
+          "totalMin": 334,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/18": {
+          "start": "07:34",
+          "end": "17:54",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 80,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:04",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 86,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "07:24",
+          "end": "17:35",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 71,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:29",
+          "end": "17:47",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 78,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "06:58",
+          "end": "17:15",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 77,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "07:18",
+          "end": "17:56",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 98,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "07:20",
+          "end": "17:51",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 91,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "07:10",
+          "end": "17:55",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 105,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "07:13",
+          "end": "16:57",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 44,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "7",
+      "name": "Joel",
+      "department": "QAQC",
+      "totalMinutes": 0,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "8",
+      "name": "Okechikwu",
+      "department": "QAQC",
+      "totalMinutes": 1253,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "08:46",
+          "end": "17:11",
+          "min": 0,
+          "totalMin": 325,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:46",
+          "end": "17:13",
+          "min": 0,
+          "totalMin": 327,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "08:43",
+          "end": "17:12",
+          "min": 0,
+          "totalMin": 329,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "09:32",
+          "end": "17:04",
+          "min": 0,
+          "totalMin": 272,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "6",
+      "name": "Evans",
+      "department": "Engineering",
+      "totalMinutes": 540,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:08",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 82,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "1",
+      "name": "David",
+      "department": "Facility",
+      "totalMinutes": 1212,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "08:52",
+          "end": "14:04",
+          "min": 0,
+          "totalMin": 132,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:13",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 17,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "08:29",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 1,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "9",
+      "name": "Gbenga",
+      "department": "Facility",
+      "totalMinutes": 7387,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "07:20",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 70,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "08:27",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 3,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "07:50",
+          "end": "17:08",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 18,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/6": {
+          "start": "08:10",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 20,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "10:22",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 338,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/8": {
+          "start": "07:51",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 39,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "09:08",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 412,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/10": {
+          "start": "08:13",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 17,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "08:30",
+          "end": "17:12",
+          "min": 0,
+          "totalMin": 432,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "08:30",
+          "end": "17:02",
+          "min": 0,
+          "totalMin": 422,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/15": {
+          "start": "07:32",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 58,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "09:07",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 413,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/19": {
+          "start": "08:35",
+          "end": "16:48",
+          "min": 0,
+          "totalMin": 313,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/20": {
+          "start": "08:30",
+          "end": "17:37",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 7,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "08:43",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 437,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "09:30",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 390,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "10",
+      "name": "Francis",
+      "department": "Facility",
+      "totalMinutes": 762,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "08:30",
+          "end": "15:24",
+          "min": 0,
+          "totalMin": 324,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/27": {
+          "start": "08:42",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 438,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "14",
+      "name": "Emma",
+      "department": "Facility",
+      "totalMinutes": 12963,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "07:54",
+          "end": "15:48",
+          "min": 0,
+          "totalMin": 384,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/2": {
+          "start": "08:30",
+          "end": "16:28",
+          "min": 0,
+          "totalMin": 388,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/3": {
+          "start": "07:56",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 34,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "10:13",
+          "end": "17:11",
+          "min": 0,
+          "totalMin": 238,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/5": {
+          "start": "08:37",
+          "end": "17:17",
+          "min": 0,
+          "totalMin": 340,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Thursday-2024/06/6": {
+          "start": "07:59",
+          "end": "17:27",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 28,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/7": {
+          "start": "07:49",
+          "end": "17:08",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 19,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/8": {
+          "start": "07:58",
+          "end": "17:41",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 43,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "07:49",
+          "end": "14:33",
+          "min": 0,
+          "totalMin": 314,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/10": {
+          "start": "07:41",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 49,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "07:50",
+          "end": "17:22",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 32,
+          "penaltyMin": 90
+        },
+        "Wednesday-2024/06/12": {
+          "start": "08:06",
+          "end": "17:42",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 36,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "07:49",
+          "end": "17:09",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 20,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "07:57",
+          "end": "18:20",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 83,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "07:56",
+          "end": "18:33",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 97,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "08:13",
+          "end": "18:08",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 55,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "07:38",
+          "end": "17:59",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 81,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "07:45",
+          "end": "18:02",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 77,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "07:53",
+          "end": "18:09",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 76,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "07:50",
+          "end": "18:26",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 96,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "08:03",
+          "end": "15:33",
+          "min": 0,
+          "totalMin": 360,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/24": {
+          "start": "07:32",
+          "end": "17:20",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 48,
+          "penaltyMin": 90
+        },
+        "Tuesday-2024/06/25": {
+          "start": "07:36",
+          "end": "17:36",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 60,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "07:45",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 540,
+          "overTime": 45,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "07:37",
+          "end": "17:21",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 44,
+          "penaltyMin": 90
+        },
+        "Friday-2024/06/28": {
+          "start": "07:58",
+          "end": "17:05",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 7,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "07:48",
+          "end": "17:01",
+          "min": 0,
+          "totalMin": 450,
+          "overTime": 13,
+          "penaltyMin": 90
+        },
+        "Sunday-2024/06/30": {
+          "start": "08:16",
+          "end": "15:05",
+          "min": 0,
+          "totalMin": 319,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "16",
+      "name": "Juliet",
+      "department": "NonStaff",
+      "totalMinutes": 338,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "10:22",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 338,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    },
+    {
+      "number": "16",
+      "name": "Juliet",
+      "department": "NonStaff",
+      "totalMinutes": 338,
+      "logs": {
+        "Saturday-2024/06/1": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/2": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/3": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/4": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/5": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/6": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/7": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/8": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/9": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/10": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/11": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/12": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/13": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/14": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/15": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/16": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/17": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/18": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/19": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/20": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/21": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Saturday-2024/06/22": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/23": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/24": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Tuesday-2024/06/25": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Wednesday-2024/06/26": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Thursday-2024/06/27": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Friday-2024/06/28": {
+          "start": "10:22",
+          "end": "17:30",
+          "min": 0,
+          "totalMin": 338,
+          "overTime": 0,
+          "penaltyMin": 90
+        },
+        "Saturday-2024/06/29": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Sunday-2024/06/30": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        },
+        "Monday-2024/06/31": {
+          "start": "",
+          "end": "",
+          "min": 0,
+          "totalMin": 0,
+          "overTime": 0,
+          "penaltyMin": 0
+        }
+      }
+    }
+  ]
+}
