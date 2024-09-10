@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const department = departmentSelect.value;
 
         try {
-            const response = await fetch(`https://calculator-fe.onrender.com/${department}`);
+            const response = await fetch(`https://calculator-fe.onrender.com//settings/${department}`);
             if (response.ok) {
                 const settings = await response.json();
                 noOvertimeCheckbox.checked = settings.noOvertime;
