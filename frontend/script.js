@@ -5,7 +5,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(e) {
     const fileInput = document.getElementById('fileInput');
     formData.append('file', fileInput.files[0]);
   
-    fetch('https://calculator-fe.onrender.com//upload', {
+    fetch('https://calculator-fe.onrender.com/upload', {
       method: 'POST',
       body: formData
     })
