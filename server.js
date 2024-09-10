@@ -1,8 +1,15 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
+const fs = require('fs');
 const cors = require('cors');
 const mongoose = require('mongoose');
+
+// Ensure uploads directory exists
+const uploadsDir = path.join(__dirname, 'uploads');
+if (!fs.existsSync(uploadsDir)) {
+    fs.mkdirSync(uploadsDir, { recursive: true });
+}
 
 const { extractLogsSheet, writeDataToJsonFile } = require('./test');
 const app = express();
@@ -11,7 +18,7 @@ const port = 3000;
 // Set up multer for file uploads
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'uploads/');
+    cb(null, uploadsDir); // Use the dynamically created directory
   },
   filename: (req, file, cb) => {
     cb(null, Date.now() + path.extname(file.originalname));
@@ -30,7 +37,6 @@ const excelDataSchema = new mongoose.Schema({
 
 const ExcelData = mongoose.model('ExcelData', excelDataSchema);
 
-
 const upload = multer({ storage: storage });
 
 // Serve static files from 'public' directory
@@ -41,7 +47,6 @@ app.use(express.json());
 
 // Middleware to parse URL-encoded data
 app.use(express.urlencoded({ extended: true }));
-
 
 const settingsSchema = new mongoose.Schema({
   department: { type: String, required: true, unique: true }, // Department name (unique for each department)
@@ -57,26 +62,29 @@ const Settings = mongoose.model('Settings', settingsSchema);
 
 // Route for handling file upload
 app.post('/upload', upload.single('file'), async (req, res) => {
+    console.log(req.file); // Debugging line to check if file is being uploaded
+    if (!req.file) {
+        return res.status(400).json({ error: 'No file uploaded' });
+    }
+
     const filePath = req.file.path; // Get the file path
-  
+
     try {
-      const settings = await Settings.find()
-      // Process the Excel file using the service
-      const jsonData = await extractLogsSheet(filePath, settings);
-      const outputJsonPath = path.resolve(__dirname, 'line4Data.json');
-      await writeDataToJsonFile(jsonData, outputJsonPath);
-  
-      // Return the extracted data as a JSON response
-      res.json(jsonData);
+        const settings = await Settings.find();
+        const jsonData = await extractLogsSheet(filePath, settings);
+        const outputJsonPath = path.resolve(__dirname, 'line4Data.json');
+        await writeDataToJsonFile(jsonData, outputJsonPath);
+
+        res.json(jsonData);
     } catch (error) {
-      res.status(500).json({ error: error.message });
+        res.status(500).json({ error: error.message });
     }
 });
 
 app.post('/settings', async (req, res) => {
   try {
     console.log(req.body)
-    const { department, noOvertime, workScheduleEndTime,workScheduleStartTime, noSignOutPenalty, noSignInPenalty } = req.body;
+    const { department, noOvertime, workScheduleEndTime, workScheduleStartTime, noSignOutPenalty, noSignInPenalty } = req.body;
 
     // Validate department
     if (!department) {
@@ -131,7 +139,6 @@ app.get('/settings/:department', async (req, res) => {
     res.status(500).send('An error occurred while fetching settings.');
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
