@@ -33,6 +33,10 @@ body {
     margin: 0 auto 20px;
   }
   
+  a, a:link{
+    color: #007bff;
+
+  }
   button {
     background-color: #007bff;
     color: white;
