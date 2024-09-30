@@ -101,23 +101,24 @@ function extractData(worksheet, settings){
             if(start == "" && end == ''){
               total = min
             }else{
-            if(start !== ''){
-              if (isTimeGreater(start,"12:00")){
-                end = start;
-                start = accountingSetting.workScheduleStartTime;
-              }
+            // if(start !== ''){
+            //   if (isTimeGreater(start,"12:00")){
+            //     end = start;
+            //     // start = accountingSetting.workScheduleStartTime;
+            //   }
 
-            }
+            // }
 
-            if (start !=="" && end=="") {
-              end = accountingSetting.workScheduleEndTime ;
-            }
+            // if (start !=="" && end=="") {
+            //   end = accountingSetting.workScheduleEndTime ;
+            // }
             
+
             let min = calculateTotalMinutes(start, end)
             let maxTime = calculateTotalMinutes(accountingSetting.workScheduleStartTime, accountingSetting.workScheduleEndTime)
             total = min
             if(min>maxTime && accountingSetting.noOvertime){
-              overTime = min - maxTime
+              overTime = calculateTotalMinutes(accountingSetting.workScheduleEndTime, end)
               total = maxTime
             }
 
@@ -142,7 +143,7 @@ function extractData(worksheet, settings){
                 'end': end,
                 'min': min == NaN?0:min,
                 'totalMin': total == NaN?0:total,
-                'overTime': overTime??0,
+                'overTime': overTime < 0?0:overTime,
                 'penaltyMin': penalty
             }
 
