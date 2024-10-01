@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Logs</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <style>
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
         }
-        .user-info, .logs-container {
+        .user-list, .user-info, .logs-container {
             width: 80%;
             margin: auto;
             background-color: #fff;
@@ -22,40 +20,54 @@
             padding: 20px;
             margin-bottom: 20px;
         }
-
+        .user-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .user-list li {
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #f2f2f2;
+            border-radius: 3px;
+        }
+        .user-list li:hover {
+            background-color: #e0e0e0;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
         }
-
         table th, table td {
             border: 1px solid #ddd;
             padding: 10px;
             text-align: center;
         }
-
         table th {
             background-color: #f2f2f2;
         }
-
         table tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-
         table tr:hover {
             background-color: #f1f1f1;
         }
-
         h2 {
             margin-top: 0;
         }
-
         p {
             margin: 5px 0;
         }
     </style>
 </head>
 <body>
+    <div class="user-list">
+        <h2>Users</h2>
+        <ul id="usersList">
+            <!-- JavaScript will populate this -->
+        </ul>
+    </div>
+
     <div class="user-info">
         <h2>User Information</h2>
         <p><strong>Name:</strong> <span id="userName"></span></p>
@@ -86,54 +98,63 @@
         function findUserByNumber(users, userNumber) {
             return users.find(user => user.number === userNumber);
         }
-        document.addEventListener('DOMContentLoaded', () => {
-        // Example user data
-        const usersData = localStorage.getItem('users');
-        const users = usersData ? JSON.parse(usersData) : [];
 
+        function displayUserInfo(user) {
+            document.getElementById('userName').textContent = user.name;
+            document.getElementById('userDepartment').textContent = user.department;
+            document.getElementById('userTotalMinutes').textContent = user.totalMinutes;
 
-        // Example usage
-        const userNumberToFind = "4";
-        const user = findUserByNumber(users, userNumberToFind);
+            const logsTableBody = document.getElementById('logsTableBody');
+            logsTableBody.innerHTML = ''; // Clear existing logs
 
-        // Populate user info
-        document.getElementById('userName').textContent = user.name;
-        document.getElementById('userDepartment').textContent = user.department;
-        document.getElementById('userTotalMinutes').textContent = user.totalMinutes;
+            for (const [date, log] of Object.entries(user.logs)) {
+                const row = document.createElement('tr');
 
-        // Populate logs table
-        const logsTableBody = document.getElementById('logsTableBody');
-        for (const [date, log] of Object.entries(user.logs)) {
-            const row = document.createElement('tr');
+                const dateCell = document.createElement('td');
+                dateCell.textContent = date;
+                row.appendChild(dateCell);
 
-            const dateCell = document.createElement('td');
-            dateCell.textContent = date;
-            row.appendChild(dateCell);
+                const startCell = document.createElement('td');
+                startCell.textContent = log.start;
+                row.appendChild(startCell);
 
-            const startCell = document.createElement('td');
-            startCell.textContent = log.start;
-            row.appendChild(startCell);
+                const endCell = document.createElement('td');
+                endCell.textContent = log.end;
+                row.appendChild(endCell);
 
-            const endCell = document.createElement('td');
-            endCell.textContent = log.end;
-            row.appendChild(endCell);
+                const totalMinCell = document.createElement('td');
+                totalMinCell.textContent = log.totalMin;
+                row.appendChild(totalMinCell);
 
-            const totalMinCell = document.createElement('td');
-            totalMinCell.textContent = log.totalMin;
-            row.appendChild(totalMinCell);
+                const overTimeCell = document.createElement('td');
+                overTimeCell.textContent = log.overTime;
+                row.appendChild(overTimeCell);
 
-            const overTimeCell = document.createElement('td');
-            overTimeCell.textContent = log.overTime;
-            row.appendChild(overTimeCell);
+                const penaltyMinCell = document.createElement('td');
+                penaltyMinCell.textContent = log.penaltyMin;
+                row.appendChild(penaltyMinCell);
 
-            const penaltyMinCell = document.createElement('td');
-            penaltyMinCell.textContent = log.penaltyMin;
-            row.appendChild(penaltyMinCell);
-
-            logsTableBody.appendChild(row);
+                logsTableBody.appendChild(row);
+            }
         }
-    });
 
-</script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const usersData = localStorage.getItem('users');
+            const users = usersData ? JSON.parse(usersData) : [];
+
+            const usersList = document.getElementById('usersList');
+            users.forEach(user => {
+                const li = document.createElement('li');
+                li.textContent = `${user.name} (${user.number})`;
+                li.addEventListener('click', () => displayUserInfo(user));
+                usersList.appendChild(li);
+            });
+
+            // Display the first user's info by default
+            if (users.length > 0) {
+                displayUserInfo(users[0]);
+            }
+        });
+    </script>
 </body>
 </html>
