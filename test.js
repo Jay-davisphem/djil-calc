@@ -101,13 +101,13 @@ function extractData(worksheet, settings){
             if(start == "" && end == ''){
               total = min
             }else{
-            // if(start !== ''){
-            //   if (isTimeGreater(start,"12:00")){
-            //     end = start;
+             if(start !== ''){
+               if (isTimeGreater(start,"12:00")){
+                 end = start;
             //     // start = accountingSetting.workScheduleStartTime;
-            //   }
+               }
 
-            // }
+             }
 
             // if (start !=="" && end=="") {
             //   end = accountingSetting.workScheduleEndTime ;
