@@ -13,6 +13,7 @@ let settings = {
     noSignInPenalty: 0,
     noSignOutPenalty: 90, // Deduct 1.5 hours if no sign-out
     calculateOvertime: false,
+    omittedDays: [], // New setting for omitted days
 };
 
 function parseLogInput(logInput) {
@@ -31,6 +32,7 @@ function parseLogInput(logInput) {
 function calculateWorkMinutes(log, month, year = 2024, settings) {
     let totalMinutes = { Weekday: 0, Saturday: 0, Sunday: 0 };
     let summary = '';
+    let maxAttainableMinutes = 0;
 
     log.forEach((entry, index) => {
         const day = index + 1;
@@ -71,6 +73,11 @@ function calculateWorkMinutes(log, month, year = 2024, settings) {
             totalMinutes[dayType] += workMinutes;
         }
 
+        // Calculate max attainable minutes
+        if (workSchedule && !settings.omittedDays.includes(day.toString())) {
+            maxAttainableMinutes += (workSchedule[2] * 60 + workSchedule[3]) - (workSchedule[0] * 60 + workSchedule[1]);
+        }
+
         summary += `${day}${getOrdinalSuffix(day)}: ${sign_in || 'N'}, ${sign_out || 'N'} (${dayName})\n`;
         if (!sign_in || !sign_out) {
             summary += '   - No sign-in or sign-out\n';
@@ -92,8 +99,9 @@ function calculateWorkMinutes(log, month, year = 2024, settings) {
 
     const finalTotal = totalMinutes.Weekday + totalMinutes.Saturday + totalMinutes.Sunday;
     finalSummary += `\nFinal Totals:\n- Total Work Minutes for ${getMonthName(month)} ${year}: ${finalTotal} minutes\n`;
+    finalSummary += `- Maximum Attainable Minutes: ${maxAttainableMinutes} minutes\n`;
 
-    return { finalTotal, summary, finalSummary };
+    return { finalTotal, summary, finalSummary, maxAttainableMinutes };
 }
 
 function getOrdinalSuffix(i) {
@@ -117,7 +125,7 @@ function getMonthName(monthNumber) {
 }
 
 app.post('/settings', (req, res) => {
-    const { weekdaySchedule, saturdaySchedule, sundaySchedule, noSignInPenalty, noSignOutPenalty, calculateOvertime } = req.body;
+    const { weekdaySchedule, saturdaySchedule, sundaySchedule, noSignInPenalty, noSignOutPenalty, calculateOvertime, omittedDays } = req.body;
     settings = {
         weekdaySchedule,
         saturdaySchedule,
@@ -125,6 +133,7 @@ app.post('/settings', (req, res) => {
         noSignInPenalty,
         noSignOutPenalty,
         calculateOvertime,
+        omittedDays: omittedDays ? omittedDays.split(',').map(day => day.trim()) : [], // Parse omitted days
     };
     res.json({ success: true });
 });
@@ -132,8 +141,8 @@ app.post('/settings', (req, res) => {
 app.post('/calculate', (req, res) => {
     const { year, month, log, name } = req.body;
     const parsedLog = parseLogInput(log);
-    const { finalTotal, summary, finalSummary } = calculateWorkMinutes(parsedLog, month, year, settings);
-    res.json({ name, final_total: finalTotal, summary, final_summary: finalSummary });
+    const { finalTotal, summary, finalSummary, maxAttainableMinutes } = calculateWorkMinutes(parsedLog, month, year, settings);
+    res.json({ name, final_total: finalTotal, summary, final_summary: finalSummary, max_attainable_minutes: maxAttainableMinutes });
 });
 
 const PORT = process.env.PORT || 3000;

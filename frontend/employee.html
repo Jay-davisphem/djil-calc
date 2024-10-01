@@ -72,7 +72,8 @@
         <h2>User Information</h2>
         <p><strong>Name:</strong> <span id="userName"></span></p>
         <p><strong>Department:</strong> <span id="userDepartment"></span></p>
-        <p><strong>Total Minutes:</strong> <span id="userTotalMinutes"></span></p>
+        <p><strong>Total Minutes Worked:</strong> <span id="userTotalMinutes"></span></p>
+        <p><strong>Maximum Attainable Minutes:</strong> <span id="maxAttainableMinutes"></span></p>
     </div>
 
     <div class="logs-container">
@@ -99,10 +100,19 @@
             return users.find(user => user.number === userNumber);
         }
 
+        function calculateMaxAttainableMinutes(logs) {
+            const workDays = Object.keys(logs).length;
+            const workHoursPerDay = 8; // Assuming a standard 8-hour workday
+            return workDays * workHoursPerDay * 60; // Convert to minutes
+        }
+
         function displayUserInfo(user) {
             document.getElementById('userName').textContent = user.name;
             document.getElementById('userDepartment').textContent = user.department;
             document.getElementById('userTotalMinutes').textContent = user.totalMinutes;
+
+            const maxAttainableMinutes = calculateMaxAttainableMinutes(user.logs);
+            document.getElementById('maxAttainableMinutes').textContent = maxAttainableMinutes;
 
             const logsTableBody = document.getElementById('logsTableBody');
             logsTableBody.innerHTML = ''; // Clear existing logs

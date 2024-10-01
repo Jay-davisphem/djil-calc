@@ -5,68 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Department Settings</title>
-    <link rel="stylesheet" href="styles.css">
-
-<style>
-        /* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
-
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="time"],
-input[type="number"],
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-</style>
-
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="time"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -74,7 +63,8 @@ button:hover {
         <div class="form-group">
             <label for="departmentSelect">Select Department:</label>
             <select id="departmentSelect">
-                <!-- Dynamic options will be loaded here -->
+                <option value="Accounting">Accounting</option>
+                <option value="Others">Others</option>
             </select>
         </div>
         <div class="form-group">
@@ -90,95 +80,111 @@ button:hover {
             <input type="time" id="workScheduleEndTime" value="17:30">
         </div>
         <div class="form-group">
+            <label for="saturdayEndTime">Saturday End Time (for Others):</label>
+            <input type="time" id="saturdayEndTime" value="14:30">
+        </div>
+        <div class="form-group">
             <label for="noSignOutPenalty">No Sign Out Penalty (minutes):</label>
-            <input type="text" id="noSignOutPenalty" value="0">
+            <input type="number" id="noSignOutPenalty" value="0">
         </div>
         <div class="form-group">
             <label for="noSignInPenalty">No Sign In Penalty (minutes):</label>
-            <input type="text" id="noSignInPenalty" value="0">
+            <input type="number" id="noSignInPenalty" value="0">
+        </div>
+        <div class="form-group">
+            <label for="omittedDays">Omitted Days (comma-separated):</label>
+            <textarea id="omittedDays" rows="3" placeholder="e.g., 1, 15, 25"></textarea>
         </div>
         <button id="saveSettingsButton">Save Settings</button>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const departmentSelect = document.getElementById('departmentSelect');
+        const noOvertimeCheckbox = document.getElementById('noOvertime');
+        const workScheduleEndTimeInput = document.getElementById('workScheduleEndTime');
+        const workScheduleStartTimeInput = document.getElementById('workScheduleStartTime');
+        const saturdayEndTimeInput = document.getElementById('saturdayEndTime');
+        const noSignOutPenaltyInput = document.getElementById('noSignOutPenalty');
+        const noSignInPenaltyInput = document.getElementById('noSignInPenalty');
+        const omittedDaysInput = document.getElementById('omittedDays');
+        const saveSettingsButton = document.getElementById('saveSettingsButton');
+
+        // Fetch and display settings when a department is selected
+        departmentSelect.addEventListener('change', async () => {
+            const department = departmentSelect.value;
+            try {
+                const response = await fetch(`https://calculator-fe.onrender.com/settings/${department}`);
+                if (response.ok) {
+                    const settings = await response.json();
+                    noOvertimeCheckbox.checked = settings.noOvertime;
+                    workScheduleEndTimeInput.value = settings.workScheduleEndTime;
+                    workScheduleStartTimeInput.value = settings.workScheduleStartTime;
+                    saturdayEndTimeInput.value = settings.saturdayEndTime || '14:30';
+                    noSignOutPenaltyInput.value = settings.noSignOutPenalty;
+                    noSignInPenaltyInput.value = settings.noSignInPenalty;
+                    omittedDaysInput.value = settings.omittedDays ? settings.omittedDays.join(', ') : '';
+
+                    // Show/hide Saturday end time based on department
+                    saturdayEndTimeInput.parentElement.style.display = department === 'Others' ? 'block' : 'none';
+                } else {
+                    // Reset to defaults if no settings found
+                    resetToDefaults(department);
+                }
+            } catch (error) {
+                console.error('Error fetching settings:', error);
+                resetToDefaults(department);
+            }
+        });
+
+        function resetToDefaults(department) {
+            noOvertimeCheckbox.checked = false;
+            workScheduleEndTimeInput.value = '17:30';
+            workScheduleStartTimeInput.value = '08:30';
+            saturdayEndTimeInput.value = '14:30';
+            noSignOutPenaltyInput.value = '0';
+            noSignInPenaltyInput.value = '0';
+            omittedDaysInput.value = '';
+            saturdayEndTimeInput.parentElement.style.display = department === 'Others' ? 'block' : 'none';
+        }
+
+        // Save settings when button is clicked
+        saveSettingsButton.addEventListener('click', async () => {
+            const department = departmentSelect.value;
+            const settings = {
+                department: department,
+                noOvertime: noOvertimeCheckbox.checked,
+                workScheduleEndTime: workScheduleEndTimeInput.value,
+                workScheduleStartTime: workScheduleStartTimeInput.value,
+                saturdayEndTime: department === 'Others' ? saturdayEndTimeInput.value : null,
+                noSignOutPenalty: parseInt(noSignOutPenaltyInput.value, 10),
+                noSignInPenalty: parseInt(noSignInPenaltyInput.value, 10),
+                omittedDays: omittedDaysInput.value.split(',').map(day => day.trim()).filter(day => day !== '')
+            };
+
+            try {
+                const response = await fetch('https://calculator-fe.onrender.com/settings', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(settings)
+                });
+
+                if (response.ok) {
+                    alert('Settings saved successfully');
+                } else {
+                    alert('Failed to save settings');
+                }
+            } catch (error) {
+                console.error('Error saving settings:', error);
+                alert('An error occurred while saving settings');
+            }
+        });
+
+        // Initialize the page
+        departmentSelect.dispatchEvent(new Event('change'));
+    });
+    </script>
 </body>
 </html>
-<script>
-
-document.addEventListener('DOMContentLoaded', () => {
-    const departmentSelect = document.getElementById('departmentSelect');
-    const noOvertimeCheckbox = document.getElementById('noOvertime');
-    const workScheduleEndTimeInput = document.getElementById('workScheduleEndTime');
-    const workScheduleStartTimeInput = document.getElementById('workScheduleStartTime');
-    const noSignOutPenaltyInput = document.getElementById('noSignOutPenalty');
-    const noSignInPenaltyInput = document.getElementById('noSignInPenalty');
-    const saveSettingsButton = document.getElementById('saveSettingsButton');
-
-    // Example departments - in real-world, fetch from server
-    const departments = ['Accounting', 'Others'];
-    departments.forEach(dept => {
-        const option = document.createElement('option');
-        option.value = dept;
-        option.textContent = dept;
-        departmentSelect.appendChild(option);
-    });
-
-    // Fetch and display settings when a department is selected
-    departmentSelect.addEventListener('change', async () => {
-        const department = departmentSelect.value;
-
-        try {
-            const response = await fetch(`https://calculator-fe.onrender.com/settings/${department}`);
-            if (response.ok) {
-                const settings = await response.json();
-                noOvertimeCheckbox.checked = settings.noOvertime;
-                workScheduleEndTimeInput.value = settings.workScheduleEndTime;
-                workScheduleStartTimeInput.value = settings.workScheduleStartTime;
-                noSignOutPenaltyInput.value = settings.noSignOutPenalty
-                noSignInPenaltyInput.value = settings.noSignInPenalty;
-            } else {
-                // Reset to defaults if no settings found
-                noOvertimeCheckbox.checked = false;
-                workScheduleEndTimeInput.value = '17:30';
-                workScheduleStartTimeInput = '08:30'
-                noSignOutPenaltyInput.value = 0;
-                noSignInPenaltyInput.value = 0;
-            }
-        } catch (error) {
-            console.error('Error fetching settings:', error);
-        }
-    });
-
-    // Save settings when button is clicked
-    saveSettingsButton.addEventListener('click', async () => {
-        const department = departmentSelect.value;
-        const settings = {
-            department: department,
-            noOvertime: noOvertimeCheckbox.checked,
-            workScheduleEndTime: workScheduleEndTimeInput.value,
-            workScheduleStartTime: workScheduleStartTimeInput.value,
-            noSignOutPenalty: parseInt(noSignOutPenaltyInput.value, 10),
-            noSignInPenalty: parseInt(noSignInPenaltyInput.value, 10)
-        };
-
-        try {
-            const response = await fetch('https://calculator-fe.onrender.com/settings', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(settings)
-            });
-
-            if (response.ok) {
-                alert('Settings saved successfully');
-            } else {
-                alert('Failed to save settings');
-            }
-        } catch (error) {
-            console.error('Error saving settings:', error);
-            alert('An error occurred while saving settings');
-        }
-    });
-});
-</script>
