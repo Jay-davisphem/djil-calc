@@ -86,6 +86,7 @@ function extractData(worksheet, settings){
           let min = 0
 
           if (start !== "" && end !== "") {
+            // Both sign-in and sign-out are present
             min = calculateTotalMinutes(start, end)
             let maxTime = calculateTotalMinutes(accountingSetting.workScheduleStartTime, accountingSetting.workScheduleEndTime)
             total = min
@@ -94,27 +95,24 @@ function extractData(worksheet, settings){
               overTime = calculateTotalMinutes(accountingSetting.workScheduleEndTime, end)
               total = maxTime
             }
+          } else if (start === "" && end === "") {
+            // Both sign-in and sign-out are missing
+            total = 0
+            penalty = 0
           } else {
-            // Apply penalties only when start or end time is missing
+            // Only one of sign-in or sign-out is missing
             if (start === "") {
-              penalty += accountingSetting.noSignInPenalty;
-            }
-            if (end === "") {
-              penalty += accountingSetting.noSignOutPenalty;
+              penalty = accountingSetting.noSignInPenalty;
+              total = calculateTotalMinutes(accountingSetting.workScheduleStartTime, end);
+            } else if (end === "") {
+              penalty = accountingSetting.noSignOutPenalty;
+              let effectiveStart = isTimeGreater(start, accountingSetting.workScheduleStartTime) ? start : accountingSetting.workScheduleStartTime;
+              total = calculateTotalMinutes(effectiveStart, accountingSetting.workScheduleEndTime);
             }
             
-            // If there's a start time but no end time, calculate total up to the scheduled end time
-            if (start !== "" && end === "") {
-              total = calculateTotalMinutes(start, accountingSetting.workScheduleEndTime);
-            }
-            // If there's an end time but no start time, calculate total from the scheduled start time
-            else if (start === "" && end !== "") {
-              total = calculateTotalMinutes(accountingSetting.workScheduleStartTime, end);
-            }
+            // Deduct penalty from total minutes worked
+            total = Math.max(0, total - penalty);
           }
-
-          // Deduct penalty from total minutes worked
-          total = Math.max(0, total - penalty);
 
           userTotalmin = userTotalmin + total
 
